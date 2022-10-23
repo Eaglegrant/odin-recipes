@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    background-color:brown
+  }
+  #title{
+    background-color: gray;
+  }
+a {
+    text-decoration: none;
+    color:chartreuse;
+    background-size: 350px 350px;
+    padding: 100px;
+    width: 350px;
+  }
+  a>p{
+    background-color: rgba(4, 8, 4, 0.5);
+  }
+  #lasagna{
+    background-image: url("recipes/images/lasagna.webp");
+  }
+  #pizza{
+    background-image: url("recipes/images/pizza.jpg");
+  }
+  #gamer-fuel{
+    background-image: url("recipes/images/gamer-fuel.jpeg");
+  }
+  h1 {
+    font-size: 85px;
+    color:green;
+  }
+  .flex-container div {
+    border: 4px solid brown;
+height: 270px;
+width: fit-content;
+margin-left: 5%;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+ #row{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    align-items: center;
+  }
+
+a:hover{
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    font-size: 150%;
+}
